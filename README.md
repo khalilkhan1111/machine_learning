@@ -48,14 +48,45 @@ Determining the best-fit line in linear regression involves finding the line tha
 Evaluation metrices:
 
 Mean Absolute Error (MAE): MAE calculates the average absolute difference between predicted and actual values. It is robust to outliers. 
+Formula is MAE = (1/n) * sum(|y_i - y_pred_i|)
+
+n is the number of data points
+
+y_i is the actual value for the i-th data point
+
+y_pred_i is the predicted value for the i-th data point
 
 Mean Squared Error (MSE): MSE calculates the average squared difference between predicted and actual values. It penalizes larger errors more heavily than MAE.
+Formula is (1/n) * sum((y_i - y_pred_i)^2)
+
+n is the number of data points
+
+y_i is the actual value for the i-th data point
+
+y_pred_i is the predicted value for the i-th data point
 
 Root Mean Squared Error (RMSE): RMSE is the square root of MSE and provides an interpretable metric in the same unit as the target variable.
+Formula is  RMSE = sqrt(MSE)
+
+MSE is the mean squared error
 
 R-squared (R**2): R-squared measures the proportion of the variance in the dependent variable that is explained by the model. It ranges from 0 to 1, where higher values indicate a better fit.
+Formula is R^2 = 1 - (SSR / SST)
+
+SSR is the sum of squared residuals
+
+SST is the sum of squared totals
+
+SSR is the sum of the squared differences between the actual and predicted values for each data point. SST is the sum of the squared differences between each data point and the mean of all data points.
 
 Mean Absolute Percentage Error (MAPE): MAPE calculates the average percentage difference between predicted and actual values. It is often used in forecasting problems.
+formula is MAPE = (1/n) * sum(|(y_i - y_pred_i) / y_i| * 100)
+
+n is the number of data points
+
+y_i is the actual value for the i-th data point
+
+y_pred_i is the predicted value for the i-th data point
 
 
 
