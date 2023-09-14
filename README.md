@@ -88,7 +88,55 @@ y_i is the actual value for the i-th data point
 
 y_pred_i is the predicted value for the i-th data point
 
+Homoscedasticity:
 
+Homoscedasticity is a statistical property of data that means that the variance of the errors is constant across all values of the independent variable. This means that the error terms are equally spread out around the regression line, regardless of the value of the independent variable.
 
+Heteroscedasticity:
 
- 
+Heteroscedasticity is a statistical property of data that means that the variance of the errors is not constant across all values of the independent variable. This means that the error terms are not equally spread out around the regression line, regardless of the value of the independent variable.
+
+Heteroscedasticity can be caused by a number of factors, such as outliers, non-linear relationships between the independent and dependent variables, and measurement error.
+
+Properties of regression lines:
+
+A regression line always passes through the mean of the dependent variable. This is because the regression line minimizes the sum of the squared residuals, and the mean of the dependent variable is the point that minimizes the sum of the squared residuals.
+
+The slope of the regression line indicates the direction and strength of the relationship between the independent and dependent variables. A positive slope indicates that the independent variable and dependent variable are positively correlated, meaning that as the independent variable increases, the dependent variable also increases. A negative slope indicates that the independent variable and dependent variable are negatively correlated, meaning that as the independent variable increases, the dependent variable decreases.
+
+The intercept of the regression line indicates the value of the dependent variable when the independent variable is equal to zero. This value is often not meaningful, but it can be useful for interpreting the regression line.
+
+The regression line does not perfectly fit the data. There will always be some error between the predicted values and the actual values.
+
+The regression line can be used to make predictions about the dependent variable for new values of the independent variable. However, it is important to remember that these predictions are only estimates, and they may not be accurate for all values of the independent variable.
+
+Advantages of linear regressions:
+
+Simple to understand and interpret.
+
+Easy to implement.
+
+Robust to noise.
+
+Versatile.
+
+Limitations:
+
+Assumptions: Linear regression models make a number of assumptions about the data, such as normality, homoscedasticity, and independence of the errors. If these assumptions are not met, then the model may not be accurate.
+
+Outliers.
+
+Multicollinearity
+
+Overfitting.
+
+Cross-validation is a technique for evaluating the performance of a machine learning model on unseen data. It works by splitting the training data into a number of folds, and then training and evaluating the model on each fold. The average performance of the model on the folds is then used to assess its overall performance.
+
+Hyperparameter tuning is the process of finding the optimal values for the hyperparameters of a machine learning model. Hyperparameters are parameters that control the learning process of the model, but they are not learned from the data.
+
+Here are some of the benefits of using cross-validation and hyperparameter tuning:
+
+Improved model performance: Cross-validation and hyperparameter tuning can help you to find the best model hyperparameters, which can lead to improved model performance.
+Reduced overfitting: Cross-validation can help you to identify and avoid overfitting, which is a problem where the model fits the training data too closely and does not generalize well to new data.
+
+More reliable model selection: Cross-validation can help you to select the best model from a set of candidate models, which can lead to more reliable model selection.
