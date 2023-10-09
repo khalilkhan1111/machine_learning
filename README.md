@@ -1,6 +1,6 @@
 # machine_learning
 
-Machine learning is a subfield of artificial intelligence (AI) that focuses on the development of algorithms and models that enable computers to learn and make predictions or decisions without being explicitly programmed.
+.Machine learning is a subfield of artificial intelligence (AI) that focuses on the development of algorithms and models that enable computers to learn and make predictions or decisions without being explicitly programmed.
 
 Machine learning can be categorized into several types based on the learning approach and the nature of the training data. The three main types of machine learning are:
 
